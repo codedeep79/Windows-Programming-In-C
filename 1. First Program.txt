@@ -6,7 +6,7 @@ int WINAPI WinMain(HINSTANCE HInstance, HINSTANCE HPrevInstance, PSTR szCmdLine,
 {
 	//hInstance: HĐH sử dụng giá trị này để xác định tập tin thực thi exe khi nó xử lý trong RAM
 	//hPrevInstance: Đc sử dụng trong Windows 16 bit nhưng bây giờ thì luôn luôn bằng 0
-	//szCmdLine: Chứa các đối số Command Line dưới dạng chuối unicode
+	//szCmdLine: Chứa các đối số Command Line dưới dạng chuỗi unicode
 	//iCmdShow: Là 1 flag, thể hiện cho cửa sổ phóng to, thu nhỏ hay bình thường
 	
 	//MessageBox(NULL, TEXT("Hello World 2018"), TEXT("Notify!!!"), NULL);
