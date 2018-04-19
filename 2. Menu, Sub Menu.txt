@@ -10,7 +10,7 @@ HMENU hMenu;
 void addMenus(HWND);
 int WINAPI WinMain(HINSTANCE HInstance, HINSTANCE HPrevInstance, PSTR szCmdLine, int iCmdShow){
 
-	// WNDCLASSW: Windows Class Window
+	// WNDCLASSW: Windows Class Object
 	WNDCLASSW wc = { 0 };
 	wc.hbrBackground = (HBRUSH) COLOR_WINDOW;
 	wc.hCursor = LoadCursor(NULL, IDC_ARROW);
