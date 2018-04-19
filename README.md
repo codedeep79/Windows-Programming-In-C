@@ -1,2 +1,2 @@
 # Windows-Programming-In-C
-Tutorial about C
+Tutorial Windows Application Programming in C
